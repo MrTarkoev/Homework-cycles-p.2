@@ -67,5 +67,23 @@ public class Main {
             System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
             friday += 7;
         }
+        System.out.println();
+        // Циклы. Часть 2.  Домашнее задание - 3 Задание 1
+        System.out.println("Циклы. Часть 2.  Домашнее задание - 3. Задание 1");
+        int currentYear = 2022;
+        int startPeriod = currentYear - 200;
+        int endPeriod = currentYear + 100;
+        for (int i = startPeriod; i <= endPeriod; i++)
+            if (i % 79 == 0) {
+                System.out.println(i);
+            }
+        System.out.println();
+        // Циклы. Часть 2.  Домашнее задание - 3 Задание 2
+        System.out.println("Циклы. Часть 2.  Домашнее задание - 3. Задание 2");
+        int a = 2;
+        int b = 2;
+        for (b = 1; b <= 10; b++)
+            System.out.println(a + " x " + b + " = " + (a * b));
+        System.out.println();
     }
 }
